@@ -1,0 +1,3 @@
+[submodule "cookbooks/logmein-hamachi"]
+	path = cookbooks/logmein-hamachi
+	url = https://github.com/myplanetdigital/chef-logmein-hamachi.git
