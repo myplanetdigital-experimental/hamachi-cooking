@@ -1,0 +1,16 @@
+{
+  "name": "vagrant",
+  "default_attributes": {
+  },
+  "json_class": "Chef::Role",
+  "env_run_lists": {
+  },
+  "run_list": [
+    "recipe[vim]",
+    "recipe[logmein-hamachi]"
+  ],
+  "description": "Base role for testing logmein-hamachi cookbooks during build-out.",
+  "chef_type": "role",
+  "override_attributes": {
+  }
+}
