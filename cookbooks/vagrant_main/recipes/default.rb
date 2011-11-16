@@ -18,18 +18,3 @@
 # with this program; if not, write to the Free Software Foundation, Inc.,
 # 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #
-
-%w{ curl ca-certificates }.each do |pkg|
-  package pkg
-end
-
-# hardy ships with *really* old ca-certs
-# update them so github https requests don't fail with curl
-bash "Updating cacerts" do
-    user "root"
-    group "root"
-    code <<-EOH
-    curl http://curl.haxx.se/ca/cacert.pem -o /etc/ssl/certs/ca-certificates.crt
-    EOH
-end
-
