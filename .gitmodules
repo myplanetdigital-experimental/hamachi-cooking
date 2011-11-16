@@ -1,3 +1,6 @@
 [submodule "cookbooks/maintenance"]
 	path = cookbooks/maintenance
 	url = https://github.com/myplanetdigital/chef-maintenance.git
+[submodule "cookbooks/logmein-hamachi"]
+	path = cookbooks/logmein-hamachi
+	url = https://github.com/myplanetdigital/chef-logmein-hamachi.git
