@@ -1,0 +1,3 @@
+[submodule "cookbooks/maintenance"]
+	path = cookbooks/maintenance
+	url = https://github.com/myplanetdigital/chef-maintenance.git
