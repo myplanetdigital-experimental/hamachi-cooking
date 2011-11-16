@@ -7,6 +7,7 @@
   },
   "run_list": [
     "recipe[vim]",
+    "recipe[vagrant_main]",
     "recipe[logmein-hamachi]"
   ],
   "description": "Base role for testing logmein-hamachi cookbooks during build-out.",
