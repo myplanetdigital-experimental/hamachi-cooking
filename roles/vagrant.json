@@ -7,7 +7,6 @@
   },
   "run_list": [
     "recipe[vim]",
-    "recipe[maintenance]",
     "recipe[hamachi]"
   ],
   "description": "Base role for testing logmein-hamachi cookbooks during build-out.",

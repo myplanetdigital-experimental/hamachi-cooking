@@ -1,0 +1,10 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apache2 (1.0.8)
+    vim (1.0.2)
+
+DEPENDENCIES
+  apache2 (>= 0)
+  vim (>= 0)
+

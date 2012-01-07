@@ -1,5 +1,5 @@
 Vagrant::Config.run do |config|
-  config.vm.box = "hardy64"
+  config.vm.box = "lucid32"
   # config.vm.box_url = "http://domain.com/path/to/above.box"
 
   # config.vm.network "33.33.33.10"
@@ -8,7 +8,7 @@ Vagrant::Config.run do |config|
   # config.vm.share_folder "v-data", "/vagrant_data", "../data"
 
   config.vm.provision :chef_solo do |chef|
-    chef.cookbooks_path = "cookbooks"
+    chef.cookbooks_path = [ "cookbooks", "cookbooks-in-progress" ]
     chef.roles_path = "roles"
     chef.add_role "vagrant"
 
