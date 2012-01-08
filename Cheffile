@@ -3,5 +3,9 @@
 
 site 'http://community.opscode.com/api/v1'
 
+cookbook 'apt'
 cookbook 'apache2'
+
+# Personal
 cookbook 'vim'
+cookbook 'zsh'
